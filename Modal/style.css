@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.box{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 600px;
+    height: 250px;
+    margin-top: 400px;
+    margin-left: 700px;
+    border-radius: 20px;
+}
+h1{
+    padding-top: 30px;
+    margin-top: 30px;
+    font-size: 50px;
+    color: rgb(57, 41, 65);
+}
+.box button{
+    padding-top: 20px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    font-size: x-large;
+    background-color: transparent;
+    border: 2px solid rgb(131, 131, 159);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    color: cornflowerblue;
+
+}
+.box button:hover{
+    padding-left:50px;
+    padding-right:50px;
+    font-size: larger;
+    border-radius: 30px;
+}
+/* modal over LAY */
+.model-overlay{
+    background-color: white;
+    text-align: center;
+    width: 600px;
+    height: 250px;
+    margin-left: 700px;
+    margin-top: -675px;
+    border-radius: 20px;
+    transition: 0.1s;
+    visibility: hidden;
+   
+}
+.model-overlay .box2 #modal_btn{
+    padding-top: 20px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    font-size: x-large;
+    background-color: transparent;
+    border: 2px solid rgb(131, 131, 159);
+    cursor: pointer;
+    /* transition: 0.5s ease-in-out; */
+    color: rgb(255, 1, 5);
+}
+.model-overlay .box2 #modal_btn:hover{
+      padding-left:50px;
+    padding-right:50px;
+    border: 3px solid rgb(131, 131, 159);
+   
+}
+.model-overlay .box2 .modal_color{
+    color: rgb(34, 42, 48);
+}
