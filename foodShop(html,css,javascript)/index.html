@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Web App</title>
+  </head>
+  <body class="bg-light">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark p-3" style="background-color: black; color: white;" >
+          <a class="navbar-brand me-5 fs-3" href="#"> <span class="text-warning">Food Nation  <i class="fa-solid fa-burger"></i></span>  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active "href="#">Location <i class="fa-solid fa-location-crosshairs"></i></a>
+              </li>
+              <li class="nav-item dropdown">
+               
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Menu <i class="fa-solid fa-bars"></i></a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <a class="nav-link active me-2 fs-3 text-danger ps-3 pe-3 p-2" href=""><i class="fa-brands fa-instagram"></i></a>
+              <a class="nav-link active fs-3 ps-3 pe-3 text-primary p-2" type="submit"><i class="fa-brands fa-facebook"></i></a>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+      <div class="">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://img.freepik.com/free-photo/front-view-yummy-meat-cheeseburger-with-french-fries-dark-background-dinner-burgers-snack-fast-food-sandwich-salad-dish-toast_140725-159215.jpg?w=1380&t=st=1685084344~exp=1685084944~hmac=6902de308cfc8212236e87eebf8c063f4f0905f1d037296f0e68585cd802aa07" width="800px" height="900px" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Buger Crusiens</h5>
+              <p>Eat Burger Dont Count Calories.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.freepik.com/free-photo/crispy-french-fries-with-ketchup-mayonnaise_1150-26588.jpg?w=1380&t=st=1685084608~exp=1685085208~hmac=f8b5cfb204b92a0758f2c89caf25c6d9ada8cd602cb69cf8d7fcfd7ab389f467"  width="800px" height="900px" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Potato French Frize</h5>
+              <p>Taste Curuncy French Fries With Delicious Dips.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.freepik.com/free-photo/christmas-table-served-with-turkey-decorated-with-bright-tinsel-candles_2829-18829.jpg?w=1380&t=st=1685084634~exp=1685085234~hmac=4d0f80d2a7e7100dfa9a6a585101db2a191458ecb5555ecfa730b251930a2f4f"   width="800px" height="900px" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Deep Roasted Chiken </h5>
+              <p>Enjoy This Ipl With Roasted Chicken.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    
+    <!-- Spcial Menu -->
+
+    <div class="container-fluid bg-dark">
+        <h1 class="display-1 text-light text-center  mb-5">Our Specials</h1>
+    
+        <div class="container">
+            <div class="row">
+              <div class="col mb-5">
+                
+                <div class="card" style="width: 25rem;">
+                <img src="https://img.freepik.com/free-photo/front-view-burger-stand_141793-15542.jpg?w=1380&t=st=1685085188~exp=1685085788~hmac=7cb1492e693a7e3c6a7a0f87fa3ecd9c44a16661a646ca656fd44852d026e5ae" class="card-img-top"  width="600px" height="300px"  alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Chicken Mac Burger</h5>
+                    <p class="card-text"></p>       
+                    <button class="btn btn-dark">Give Details</button>
+                   
+
+                </div>
+                </div>
+
+
+              </div>
+              <div class="col">
+                
+                <div class="card" style="width: 25rem;">
+                <img src="https://img.freepik.com/free-photo/side-view-doner-with-grilled-chicken-greens-lettuce-tomato-french-fries-table_141793-4881.jpg?w=1380&t=st=1685085046~exp=1685085646~hmac=4d1e79fff154c9b6c0982476d0109d3e04ced703197134e4324ccce265637e75" width="600px" height="300px" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Paneer Roll With Trurmeric.. </h5>
+                    <p class="card-text"></p>
+                    <button class="btn btn-dark">Give Details</button>
+                </div>
+                </div>
+
+
+              </div>
+              <div class="col">
+                
+                <div class="card" style="width: 25rem;">
+                <img src="https://img.freepik.com/free-photo/chicken-skewers-with-slices-sweet-peppers-dill_2829-18809.jpg?w=1380&t=st=1685085215~exp=1685085815~hmac=3e779c7b69a5baf3c092030f7b51db869690ae1e2cb503002313400801ea8598" class="card-img-top"  width="600px" height="300px"  alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Panner Tikkas</h5>
+                    <p class="card-text"></p>
+                    <button class="btn btn-dark">Give Details</button>
+                </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="container ">
+            <div class="row">
+              <div class="col mb-5">
+                
+                <div class="card" style="width: 25rem;">
+                <img src="https://img.freepik.com/free-photo/fruit-cake-with-chocolate-chips-blueberries_176474-2965.jpg?w=826&t=st=1685088081~exp=1685088681~hmac=a260404491c1e7154a6c111b7c1653cc611f7b889b9536d10fde02e445355570" class="card-img-top"  width="600px" height="300px"  alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Strawberry Cake</h5>
+                    <p class="card-text"></p>
+                    <button class="btn btn-dark">Give Details</button>
+                </div>
+                </div>
+
+
+              </div>
+              <div class="col">
+                
+                <div class="card" style="width: 25rem;">
+                <img src="https://img.freepik.com/free-photo/top-view-cooked-pasta-with-cheese-broccoli-light-gray-background-color-dough-dish-meal-italy-food-photo-green_140725-160808.jpg?w=1380&t=st=1685090365~exp=1685090965~hmac=db6fd97d03c1c5b31e0cb35e00e158928febed1a862ad550d3f3ced75760e200" width="600px" height="300px" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">White Soce Pasta  </h5>
+                    <p class="card-text"></p>
+                    <button class="btn btn-dark">Give Details</button>
+                </div>
+                </div>
+
+
+              </div>
+              <div class="col">
+                
+                <div class="card" style="width: 25rem;">
+                <img src="https://img.freepik.com/free-photo/korean-instant-noodles-spicy-instant-noodles_1205-1556.jpg?w=1380&t=st=1685090390~exp=1685090990~hmac=c78873211533da1c11db11aa1678666eb24658eea313ef80eefee8d13920d75e" class="card-img-top"  width="600px" height="300px"  alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Cheese Maggei</h5>
+                    <p class="card-text"></p>
+                    <button class="btn btn-dark">Give Details</button>
+                </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="container ">
+            <div class="row">
+              <div class="col">
+                
+                <div class="card" style="width: 25rem;">
+                <img src="https://img.freepik.com/free-photo/strawberry-dessert-gourmet-sweet-food-chocolate-indulgence-generative-ai_188544-8522.jpg?w=1380&t=st=1685090493~exp=1685091093~hmac=798d49281ec22f0f314da403bb7bdec32c4626b740e1581329dca6756f2d2ad5" class="card-img-top"  width="600px" height="300px"  alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Straw Berry Ice-Cream</h5>
+                    <p class="card-text"></p>
+                    <button class="btn btn-dark">Give Details</button>
+                </div>
+                </div>
+
+
+              </div>
+              <div class="col">
+                
+                <div class="card" style="width: 25rem;">
+                <img src="https://img.freepik.com/free-photo/glass-foamy-cold-coffee-with-whipped-cream-chocolate-wooden-plate_114579-90914.jpg?w=1380&t=st=1685090521~exp=1685091121~hmac=f13777db5c1b40619b86e5f6cd5006a00072e4be3670fb6767a9f15183fd4a68" width="600px" height="300px" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Cold Coffe </h5>
+                    <p class="card-text"></p>
+                    <button class="btn btn-dark">Give Details</button>
+                </div>
+                </div>
+
+
+              </div>
+              <div class="col">
+                
+                <div class="card mb-5" style="width: 25rem;">
+                <img src="https://img.freepik.com/free-photo/ham-cheese-toast_1147-511.jpg?w=1380&t=st=1685090607~exp=1685091207~hmac=19ba0808c5389b40f1823b495d53d2df794e5ce2bafd426f768193447768342c" class="card-img-top"  width="600px" height="300px"  alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Grilled Sandwich</h5>
+                    <p class="card-text"></p>
+                    <button class="btn btn-dark">Give Details</button>
+                </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+          <!-- ABOUT US -->
+        <div class="container-fluid bg-light ">
+          <h1 class="text-center text-dark display-1 mb-5 ">About Us</h1>
+
+          <div class="container">
+            <div class="row">
+              <div class="col mb-5">
+                <img src="https://img.freepik.com/free-vector/chef-character-design_1322-128.jpg?w=826&t=st=1685085985~exp=1685086585~hmac=4935ef7b75675d7fe8e8c9b7bce2693cc16774b0198bb85ddf6ec1f9a7cfe5cf" width="500px" height="500px" alt="">
+              </div>
+              <div class="col">
+                <p class="fs-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum alias accusamus tempora iste aliquid illo nobis illum commodi nisi provident maxime dolorem quod laudantium impedit suscipit magni similique, laborum rem?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique doloremque temporibus id tempore, officiis quo doloribus, fugit dolores omnis .
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Location -->
+
+    <div class="container-fluid bg-dark">
+        
+        <h1 class="text-right ms-5 text-light display-1  mb-5">Location</h1>
+
+            <div class="row">
+              <div class="col">
+                <div class="container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3697.2953120278717!2d82.15697517593053!3d22.076536250967703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a280b0e2d624903%3A0xd2ba5332e48e49e7!2sYoung%20Digital%20Media!5e0!3m2!1sen!2sin!4v1685087759053!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" class="mb-5" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+              <div class="col">
+                <h1 class="text-light display-4 mb-5">Come To Our Place</h1>
+                <p class="fs-3 text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas ab expedita libero! Inventore explicabo, adipisci hic asperiores voluptatum voluptatibus aperiam? Consectetur quia facilis aspernatur aut cupiditate temporibus dolorum repellat? Vel?</p>
+                <section class="modal hidden">
+                    <div class="flex">
+                      <button class="btn-close">⨉</button>
+                    </div>
+                    <div>
+                      <h3>Ask Anything</h3>
+                      <p>
+                        Share Your Promblems And Your FeedBack so We Can Improve Your Services
+                      </p>
+                    </div>
+                  
+                    <input type="email" id="email" placeholder="brendaneich@js.com" />
+                    <textarea name="" id="" cols="20" rows="7" placeholder="Enter Your Message Here"></textarea>
+                    <button class="btn">Submit</button>
+                  </section>
+                  
+                  <div class="overlay hidden"></div>
+                  <button class="btn btn-open">Ask Any Question</button>
+
+              </div>
+            </div>
+    </div>
+    </div>    
+    
+<!-- Test Your Luck -->
+    <div class="container-fluid">
+        <h1 class="text-center display-1 mb-5">Try Your Luck</h1>
+        
+
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <p class="display-3 mt-5 mb-5">Just Click The <br>  Button To create <i class="fa-solid fa-face-smile"></i> </p>
+                <p>If You Got 6 You Get A Coupan code. <a href="">Tearms and conditions</a></p>
+              </div>
+              <div class="col">
+                <p class="fs-1 mb-5 mt-5 ms-5">Test Your Luck : <span id="number"></span></p>
+                <p class="fs-1 mb-5 mt-5 ms-5">Your Coupan Code : <span id="coupan"></span></p>
+                <button class="btn btn-outline-dark ms-5 ps-5 pe-5 pt-3 pb-3 mb-5" id="luck_button">Click Me</button>
+              </div>          
+            </div>
+          </div>
+
+    </div>
+
+    <div class="container-fluid bg-dark">
+        <h1 class="display-1 text-center mt-5 mb-5" style="color: rgb(255, 255, 255);">Reviews </h1>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col">
+                <a href="" class="text-light fs-1 mt-5"><i class="fa-solid fa-arrow-left"></i></a>
+              </div>
+
+          <div class="col">
+            
+            <div class="card mb-3" style="max-width: 440px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?w=826&t=st=1685101423~exp=1685102023~hmac=b5f7fd143c2dfde9d096b09631980ce49daf2b6c629d2df48fb0a8db56067a76" width="200px" height="200px" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Mr. Deepanshu </h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                      <p class="card-text"><small class="text-muted">Last updated 20 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+          <div class="col">
+            
+             <div class="card mb-3" style="max-width: 440px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://img.freepik.com/free-psd/3d-icon-social-media-app_23-2150049569.jpg?w=826&t=st=1685101516~exp=1685102116~hmac=ce88ea2e0783ffface1d75624f347639ff2f388caff85fd48fa16aaef5044e92" width="200px" height="200px" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Mr.  Bhavik Nahar Jain</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                  <p class="card-text"><small class="text-muted">Last updated 7 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          </div>
+          <div class="col mb-5">
+            
+             <div class="card mb-3" style="max-width: 440px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://cdn-icons-png.flaticon.com/512/607/607451.png?w=826&t=st=1685101542~exp=1685102142~hmac=9788c4a61079e360b64bd8a47a2f5ee2250a6999cae260187a1bc6a89dd64bcd" width="200px" height="200px" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Mr Bro</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <p class="card-text"><small class="text-muted">Last updated 12 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <div class="col">
+            <a href="" class="text-light fs-1 mt-5" style="margin-left: 250px;"><i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>      
+    </div>
+
+    <div class="container-fluid p-3" style="background-color: black;">
+        <div class="container">
+        <p class="text-center fs-4 " style="color:gray"> Copywrite <i class="fa-regular fa-copyright"></i> - By Deepanshu Kashyap</p>
+        </div>
+   
+
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  
+  </body>
+</html>
